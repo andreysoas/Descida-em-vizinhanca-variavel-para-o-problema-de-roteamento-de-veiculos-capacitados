@@ -335,9 +335,11 @@ def VND(solAtual:list,currentMin,matrizAdj,capacidade,qtdVeiculos,demandas): # (
 
 """#Método guloso
 
-Ideia: gerar uma rota de custo mínimo para um veículo, onde o novo ponto adicionado é tal que a distância mínima do atual último na rota até este é a menor dentre os pontos disponíveis.
+Ideia: gerar uma rota de custo mínimo para um veículo, onde o novo ponto adicionado é tal que 
+a distância mínima do atual último na rota até este é a menor dentre os pontos disponíveis.
 
-os pontos são adicionados à rota de um veículo até que a as demandas dos pontos disponíveis não ultrapassem a capacidade suportada pelo veículo.
+os pontos são adicionados à rota de um veículo até que as demandas dos pontos disponíveis 
+não ultrapassem a capacidade suportada pelo veículo.
 
 Heurística do vizinho mais próximo. (VMP)
 """
